@@ -38,11 +38,11 @@ require (
 
 
 replace (
-	github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl v0.0.0-20201021101014-9a2abd087e1c => ./cfssl
-	github.com/spf13/cast v1.3.1 => ./spf13/cast
-	github.com/spf13/cobra => ./spf13/cobra
-	github.com/spf13/jwalterweatherman => ./spf13/jwalterweatherman
-	github.com/spf13/pflag => ./spf13/pflag
-	github.com/tjfoc/gmsm v1.3.2 => ./tjfoc/gmsm
-	github.com/tjfoc/gmtls v1.2.1 => ./tjfoc/gmtls
+	github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl v0.0.0-20201021101014-9a2abd087e1c => github.com/channingduan/cfssl
+	github.com/spf13/cast v1.3.1 => github.com/channingduan/cast
+	github.com/spf13/cobra => github.com/channingduan/cobra
+	github.com/spf13/jwalterweatherman => github.com/channingduan/jwalterweatherman
+	github.com/spf13/pflag => github.com/channingduan/pflag
+	github.com/tjfoc/gmsm v1.3.2 => github.com/channingduan/gmsm
+	github.com/tjfoc/gmtls v1.2.1 => github.com/channingduan/gmtls
 )
